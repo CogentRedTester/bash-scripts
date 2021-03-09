@@ -6,7 +6,6 @@
 #
 
 file=()
-file[0]=( "$(printf "%q" "$1")" )
 file[0]="$1"
 main_stream=$2
 
